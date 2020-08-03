@@ -37,7 +37,7 @@
 <progress id="bar6" max="24" min="0" value="14">
 </li>
 <li>Other Stuff<br/>
-<progress max="24" min="0" value="5">sup</progress>
+<progress max="24" min="0" value="5">
 </li>
 </ul> 
 </div>
