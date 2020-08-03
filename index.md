@@ -39,6 +39,9 @@
 <li>Other Stuff<br/>
 <progress max="24" min="0" value="5">
   </li>
+ </ul>
+ </body>
+  </html>
 
 <script>
 var ans1=0;
