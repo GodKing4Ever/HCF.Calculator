@@ -1,7 +1,7 @@
 
  <html>
  <head>
-  <title>HCF calculator</title>
+  
  </head>
  <body>
 <h1 class="header" align="center">HCF CALCULATOR</h1>
