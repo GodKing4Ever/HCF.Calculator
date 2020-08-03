@@ -162,6 +162,7 @@ background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRx
 }
 
 h1.header{
+color:"black";
 padding:10px;
 border-radius:12px;
 background-image:url("https://www.sololearn.com/Uploads/header.jpg")
