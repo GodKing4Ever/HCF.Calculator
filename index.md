@@ -1,5 +1,5 @@
 
-  <html>
+ <html>
  <head>
   <title>HCF calculator</title>
  </head>
@@ -223,5 +223,4 @@ border-radius:14px;
 
 
 
- </body>
-</html>           
+ 
