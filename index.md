@@ -38,10 +38,7 @@
 </li>
 <li>Other Stuff<br/>
 <progress max="24" min="0" value="5">
-</li>
-</ul> 
-</div>
-
+  </li>
 
 <script>
 var ans1=0;
