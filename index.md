@@ -4,7 +4,7 @@
   
  </head>
  <body>
-<h1 class="header" align="center">HCF CALCULATOR</h1>
+<h1 class="header" align="center">Enter The Numbers Below</h1>
 <input id="in1" placeholder="Enter The First Number"> <input id="in2" placeholder="Enter The Second Number">
 <br/><br/>
 <button class="but1" onclick="sup()">Find The HCF</button>
