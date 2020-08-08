@@ -1,13 +1,12 @@
-
- <html>
+<html>
  <head>
   <title>Find HCF</title>
  </head>
  <body>
 <h1 class="header" align="center">HCF Calculator</h1>
-<input id="in1" placeholder="Enter The First Number"> <input id="in2" placeholder="Enter The Second Number">
+<input id="in1" placeholder="Enter The First Number"><input id="in2" placeholder="Enter The Second Number">
 <br/><br/>
-<button class="but1" onclick="sup()">Find The HCF</button>
+<div align="center"><button class="but1" onclick="sup()">Find The HCF</button></div>
 <br/><br/>
 <div class="one" align="center"><span id="clas"></span></div>
 <p id="par1" align="center">Thank you for using this calculator, this is one of my projects , hope you like it.</p>
@@ -80,6 +79,15 @@ var rem17=rem15%rem16;
 var rem18=rem16%rem17;
 var rem19=rem17%rem18;
 var rem20=rem18%rem19;
+var rem21=rem19%rem20;
+var rem22=rem20%rem21;
+var rem23=rem21%rem22;
+var rem24=rem22%rem23;
+var rem25=rem23%rem24;
+var rem26=rem24%rem25;
+var rem27=rem25%rem26;
+var rem28=rem26%rem27;
+var rem29=rem27%rem28;
 
 if(rem1==0){
 ans1=no2;
@@ -141,7 +149,33 @@ ans1=rem18;
 if(rem20==0){
 ans1=rem19;
 }
-
+if(rem21==0){
+ans1=rem20;
+}
+if(rem22==0){
+ans1=rem21;
+}
+if(rem23==0){
+ans1=rem22;
+}
+if(rem24==0){
+ans1=rem23;
+}
+if(rem25==0){
+ans1=rem24;
+}
+if(rem26==0){
+ans1=rem25;
+}
+if(rem27==0){
+ans1=rem26;
+}
+if(rem28==0){
+ans1=rem27;
+}
+if(rem29==0){
+ans1=rem28;
+}
 
 var display1= document.getElementById("clas");
 display1.innerHTML= "The HCF of "+testno1+" and "+ testno2 +" "+ "is = "+ans1;
@@ -193,7 +227,6 @@ font-weight:bolder;
 padding:7px;
 border-radius:12px;
 background-color:#fff;
-background-image:url("")
 
 }
 
@@ -204,27 +237,36 @@ border-radius:25px;
 background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRvY1TgIx-Mg1wT9Fb2kRkwsrYxYqVNDVoHQg&usqp=CAU")
 }
 #in2{
-width:300px;
-height:30px;
+width:47%;
+height:35px;
 align:"right";
 }
 
 #in1{
-width:300px;
-height:30px;
+width:47%;
+height:35px;
 align:"right";
 }
 button{
-width:200px;
-height:30px;
+width:270px;
+height:40px;
 font-weight:bolder;
+font-size:17px;
 background-color:#ff9c52;
-border-radius:14px;
-
+border-radius:20px;
+}
+#in1{
+border-radius:13px;
+}
+#in2{
+border-radius:13px;
 }
 
 </style>
 
+
+
+ 
 
 
  
